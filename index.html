@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Lizeth Sánchez</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <div class="mainContainer">
+
+
+    <section class="section1">
+      <h1> Learn to code by watching others </h1>
+      <p class="description">
+        See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+        but understanding how developers think is invaluable.
+      </p>
+    </section>
+
+    <section class="section2">
+
+      <div class="offer">
+        <span id="boldLetter">
+          Try it free 7 days
+        </span>
+        then $20/mo. thereafter
+      </div>
+
+      <div class="formContainer">
+
+        <form action="#">
+
+          <input type="text" name="FirstName" id="FirstName" placeholder="First Name" autocomplete="off">
+          <div class="errorContainer" id="FirstNameError">
+            <!-- <img class="iconError" src="./images/icon-error.svg" alt="iconError">
+            <p class="textError"> First Name cannot be empty </p> -->
+          </div>
+
+          <input type="text" name="LastName" id="LastName" placeholder="Last Name" autocomplete="off">
+          <div class="errorContainer" id="LastNameError">
+            <!-- <img class="iconError" src="./images/icon-error.svg" alt="iconError">
+            <p> Last Name cannot be empty </p> -->
+          </div>
+
+          <input type="email" name="EmailAddress" id="EmailAddress" placeholder="Email Address" autocomplete="off">
+          <div class="errorContainer" id="emailAddressError">
+            <!-- <img class="iconError" src="./images/icon-error.svg" alt="iconError">
+            <p> Looks like this is not an email </p> -->
+          </div>
+
+          <input type="password" name="Password" id="Password" placeholder="  Password">
+          <div class="errorContainer" id="PasswordError">
+            <!-- <img class="iconError" src="./images/icon-error.svg" alt="iconError">
+            <p> Password cannot be empty </p> -->
+          </div>
+
+          <input type="submit" id="submit" value="Claim your free trial">
+
+        </form>
+
+        <p class="termsConditions">
+          By clicking the button, you are agreeing to our
+          <a href="#">
+            Terms and Services
+          </a>
+        </p>
+
+      </div>
+
+    </section>
+
+  </div>
+
+  <script src="./main.js"></script>
+</body>
+
+</html>
